@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 2</title>
+    <link rel="stylesheet" href="baseStyle.css">
+</head>
+
+<body>
+    <div class="form1">
+        <form method="post">
+            <div>
+                <h1>Contact Form</h1>
+                <h3>Your basic info</h3>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="fname">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+
+                <label for="bday">Birthday</label>
+                <input type="date" id="bday" name="bday">
+
+                <label for="sex">Sex:</label>
+                <input type="radio" name="gender" value="m" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" value="f" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <h3>Your profile</h3>
+                <label>About you</label>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+
+                <label>Role</label>
+                <select name="role">
+                    <option value="1">Front-End Developer</option>
+                    <option value="2">Back-End Developer</option>
+                    <option value="3">Full-Stack Developer</option>
+                    <option value="4">Web Designer</option>
+                </select>
+
+                <label>Interests</label>
+                <input type="checkbox" name="interests" value="Data base" id="dataBase">
+                <label for="dataBase">Data Base</label>
+
+                <input type="checkbox" name="interests" value="Design" id="design">
+                <label for="design">Design</label>
+
+                <input type="checkbox" name="interests" value="Business" id="business">
+                <label for="business">Business</label>
+
+                <input type="checkbox" name="interests" value="Unit Test" id="unitTest">
+                <label for="unitTest">Unit Test</label>
+
+                <input type="checkbox" name="interests" value="Cloud Development" id="cloudDevelopment">
+                <label for="cloudDevelopment">Cloud Development</label>
+
+                <input type="checkbox" name="interests" value="Web Development" id="webDevelopment">
+                <label for="webDevelopment">Web Development</label>
+            </div>
+
+            <div>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

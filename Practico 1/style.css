@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: purple
+}
+    

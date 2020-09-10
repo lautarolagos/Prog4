@@ -147,8 +147,28 @@ function procesarVenta($total_sale, $type_sale)
     }
     else
     {
-        echo "Pusiste un numero negativo, autista";
+        echo "Ha ingresado un numero negativo";
     }
 }*/
+
+//PUNTO 8
+/*$a = 2;
+$b = 4;
+$c = 6;
+$d = 8;
+    
+        $array = array($a, $b, $c, $d);
+
+        mayor($array);
+
+        function mayor($array){
+            $mayor = 0;
+            foreach($array as $key){
+                if($mayor < $key){
+                    $mayor = $key;
+                }
+            }
+            echo "El mayor numero es: ". $mayor ."</br>";
+        }*/
 
 ?>

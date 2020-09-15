@@ -7,13 +7,17 @@
         private $price;
         private $quantity;
 
-        function __construct($name, $description, $price, $quantity)
+        // Tiraba un error que decia "Fatal error: Uncaught ArgumentCountError: Too few arguments"
+        // Se soluciono de dos maneras: comentando el constructor, o sea, sacandolo
+        // Y se solucion igualando los parametros a null
+        //$name=null, $description=null, $price=null, $quantity=null
+       /* function __construct($name=null, $description=null, $price=null, $quantity=null)
         {
             $this->name=$name;
             $this->description=$description;
             $this->price=$price;
             $this->quantity=$quantity;
-        }
+        }*/
 
         public function setName($name)
         {

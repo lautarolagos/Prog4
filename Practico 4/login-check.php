@@ -3,12 +3,12 @@
     $validPassword="strongPassword!";
 
     $username=$_POST["username"];
-    $password=$_POST["passwowrd"];
+    $password=$_POST["password"];
 
     if($_POST)
     {
-        if($validUsername==$username && $validPasswodd==$password)
-        {
+        if(($validUsername==$username) && ($validPassword==$password))
+        {            
             header("location:add-bill.php");
         }
         else
